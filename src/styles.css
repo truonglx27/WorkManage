@@ -1,0 +1,35 @@
+/* .App {
+  font-family: sans-serif;
+  text-align: center;
+} */
+.table td,
+.table th {
+  padding: 0.3rem;
+  vertical-align: initial;
+  border-top: 1px solid #dee2e6;
+}
+
+img {
+  float: right;
+  cursor: pointer;
+}
+.header {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.table-hover {
+  margin-left: 1rem;
+}
+.status {
+  cursor: pointer;
+}
+
+.sort-selected::after {
+  content: "*";
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  margin-left: 10px;
+  display: inline-block;
+}

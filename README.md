@@ -1,2 +1,0 @@
-# WorkManage
-Created with CodeSandbox
